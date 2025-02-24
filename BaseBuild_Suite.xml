@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test name="Test">
+		<parameter name="Bank" value="BaseBuild" />
+		<groups>
+			<run>
+				<include name="BaseBuild" />
+
+			</run>
+		</groups>
+		<classes>
+			<class
+				name="com.fss.adminportal.test.administration.UserAdmin_AddUpdateUser_Testcase" />
+			<class
+				name="com.fss.bankportal.test.administration.Administration_CurrencyConversion_Testcase" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
